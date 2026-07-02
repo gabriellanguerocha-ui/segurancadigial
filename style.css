@@ -88,13 +88,32 @@ body{
 .parametro-senha-botoes{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 12px;
 }
 
 .parametro-senha__botao{
-
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--borda);
+    color: var(--branco);
+    font-size: 28px;
+    cursor: pointer;
 }
-.parametro-senha__texto{
 
+.parametro-senha__texto{
+    min-width: 72px;
+    padding: 10px 16px;
+    border: 2px solid var(--borda);
+    border-radius: 10px;
+    background-color: #004B9F;
+    color: var(--branco);
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
